@@ -3,5 +3,8 @@
   "graphs": {
     "agent": "./my_agent/agent.py:graph"
   },
-  "env": ".env"
+  "env": ".env",
+  "dockerfile_lines": [
+    "RUN apt-get install -y libjpeg-dev zlib1g-dev libpng-dev"
+  ]
 }
