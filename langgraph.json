@@ -5,7 +5,7 @@
   },
   "env": ".env",
   "dockerfile_lines": [
-    "RUN apt-get install -y libjpeg-dev zlib1g-dev libpng-dev",
+    "RUN apt-get install -y make",
     "RUN . $HOME/.nvm/nvm.sh && npm install lodash"
   ]
 }
