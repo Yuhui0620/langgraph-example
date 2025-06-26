@@ -4,8 +4,5 @@
     "agent": "./my_agent/agent.py:graph"
   },
   "env": ".env",
-  "dockerfile_lines": [
-    "RUN apt-get install -y make",
-    "RUN . $HOME/.nvm/nvm.sh && npm install lodash"
-  ]
+  "python_version": "3.12"
 }
